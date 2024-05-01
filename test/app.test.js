@@ -10,8 +10,8 @@ describe('유닛 테스트 101', () => {
   })
 
   it('결과에 대한 기대값(expectation value)를 비교하여 유닛 테스트를 할 수 있습니다', () => {
-    expect(1 + 1).to.be.equal(FILL_ME_IN)
-    expect(100 + 200).to.be.equal(FILL_ME_IN)
+    expect(1 + 1).to.be.equal(2)
+    expect(100 + 200).to.be.equal(300)
   })
 
   it('서버에 GET / 요청을 보내면 Hello World!라는 텍스트가 응답으로 옵니다', () => {
